@@ -1,0 +1,193 @@
+.btn{border-radius: 0;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+body{
+    background-color: #008b8b;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008b8b;
+}
+
+.message-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message-icon i{
+    font-size: 40px;
+
+}
+
+.message-icon span{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+form{
+    background-color: #acc992;
+    width: 500px;
+    padding: 30px;
+    margin: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+input[type="text"], 
+input[type="email"],
+textarea,
+button{
+    background-color: #407481;
+    color: #000000;
+    border-style: solid;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius:8px;
+    border-color: #000000;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 3px;
+     
+}
+
+
+textarea{
+    border-style: solid;
+    background-color: #015266;
+    padding: 2px;
+    color: #000000;
+}
+textarea:hover{
+    background-color: #1f8eaa;
+    color: #0247a1;
+    border-color: #1f018a;
+
+}
+input{
+    color: #015266;
+    background-color:#818181;
+    border-radius: 5px;
+ 
+}
+#verzend{
+    margin-left: 10px;
+    color: #002502;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#verzend:hover{
+    background-color: #920606;
+    color: #f9fd00;
+}
+
+input:hover{
+    background-color: #74e4f8;
+    color: #0247a1;
+    border-color: #01168a;
+}
+
+#Contactformulier{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+button:hover{
+    border-style: solid;
+    margin-left: 20px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius:8px;
+    border-color: #000000;
+    padding: 2px;
+    
+}
+
+hr{
+    background-color: #6200ff;
+    border-color: black;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+a{
+    background-color: #2e3f8f;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2px;
+    border-style: solid;
+    border-color: #000000;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 25px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    
+}
+
+#submit{
+    background-color: #03a2ca;
+    color: #000000;
+    border-style: solid;
+    width: 15%;
+    height: auto;
+    margin-left: 22px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius:8px;
+    border-color: #000000;
+    padding: 2px;
+      
+}
+
+#submit:hover{
+    color: #004d6b;
+    background-color: #8d0505;
+    border-color: #000000;
+
+}
+
+a:hover{
+    color: #c8ff00;
+    background-color: #550404;
+    font-size: medium;
+}
+
+#chatright{
+    text-align: left;
+    color: #6c8a01;
+    margin: 0%;
+    margin-right: 30vh;
+}
